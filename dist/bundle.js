@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("\n\n//# sourceURL=webpack://larrymarkintl/./src/index.js?");
+eval("// src/index.js\r\n\r\n// Example: Define a function to initialize your application\r\nfunction initializeApp() {\r\n\t// Your initialization logic goes here\r\n\r\n\t// For example, you might manipulate the DOM directly\r\n\tconst rootElement = document.getElementById(\"root\");\r\n\trootElement.innerHTML = \"<h1>Hello, World!</h1>\";\r\n}\r\n\r\n// Call the initialization function when the DOM is ready\r\ndocument.addEventListener(\"DOMContentLoaded\", initializeApp);\r\n\n\n//# sourceURL=webpack://larrymarkintl/./src/index.js?");
 
 /***/ })
 
