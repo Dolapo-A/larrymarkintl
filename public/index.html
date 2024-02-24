@@ -14,6 +14,21 @@
 		<link rel="stylesheet" href="./css/general.css" />
 		<link rel="stylesheet" href="./css/style.css" />
 		<link rel="stylesheet" href="./css/queries.css" />
+
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule=""
+			src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+		></script>
+
+		<script
+			defer
+			src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+		></script>
+		<script defer src="js/script.js"></script>
 		<title>Larrymark International</title>
 	</head>
 	<body>
@@ -24,9 +39,25 @@
 
 			<nav class="main-nav">
 				<ul class="main-nav-list">
-					<li><a class="main-nav-link" href="/public/index.html">Home</a></li>
-					<li><a class="main-nav-link" href="/public/about-us.html">About Us</a></li>
-					<li><a class="main-nav-link" href="#">products</a></li>
+					<li><a class="main-nav-link" href="index.html">Home</a></li>
+					<li>
+						<a class="main-nav-link" href="about-us.html">About Us</a>
+					</li>
+					<div class="dropdown">
+						<li class="drop">
+							<a class="main-nav-link no-color" href="#">products</a>
+							<ion-icon name="chevron-down-outline"></ion-icon>
+						</li>
+						<ul class="dropdown-contents">
+							<li>
+								<a href="" class="main-nav-link">chemicals</a>
+							</li>
+							<hr />
+							<li>
+								<a href="" class="main-nav-link">machinery</a>
+							</li>
+						</ul>
+					</div>
 					<li><a class="main-nav-link nav-cta" href="#">Contact Us</a></li>
 				</ul>
 			</nav>
@@ -191,8 +222,6 @@
 					</div>
 				</div>
 			</section>
-
-			
 		</main>
 		<footer class="footer">
 			<div class="container grid grid--footer">
@@ -217,7 +246,6 @@
 						<p class="address">
 							623 Harrison St., 2nd Floor, San Francisco, CA 94107
 						</p>
-					
 					</address>
 				</div>
 
@@ -237,7 +265,6 @@
 					<ul class="footer-nav">
 						<li><a class="footer-link" href="#">About Larrymark</a></li>
 						<li><a class="footer-link" href="#">For Business</a></li>
-						
 					</ul>
 				</nav>
 			</div>
