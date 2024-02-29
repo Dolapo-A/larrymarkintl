@@ -169,6 +169,9 @@ body {
 	margin-bottom: 3.2rem;
 }
 
+.heading-tertiary--white {
+	color: #fff;
+}
 .subheading {
 	display: block;
 	font-size: 2rem;
@@ -183,12 +186,9 @@ body {
 .btn:link,
 .btn:visited {
 	display: inline-block;
-
 	text-decoration: none;
-	font-size: 2rem;
-	font-weight: 600;
-	padding: 1.6rem 3.2rem;
-
+	font-size: 1.8rem;
+	font-weight: 500;
 	/* Only necessary for .btn */
 	border: none;
 	cursor: pointer;
@@ -227,10 +227,10 @@ body {
 }
 
 .btn--form {
-	background-color: #45260a;
+	background-color: #130f26;
 	color: #fdf2e9;
-	align-self: end;
-	padding: 1.2rem;
+	align-self: start;
+	padding: 1.6rem 6.4rem;
 }
 
 .btn--form:hover {
