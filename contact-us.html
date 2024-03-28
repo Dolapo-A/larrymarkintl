@@ -30,11 +30,11 @@
 		></script>
 		<script defer src="js/script.js"></script>
 
-		<title>Larrymark-About Us</title>
+		<title>Larrymark-Contct Us</title>
 	</head>
 	<body>
 		<header class="header">
-			<a href="#">
+			<a href="index.html">
 				<img class="logo" alt="Omnifood logo" src="img/logos/logo.svg" />
 			</a>
 
@@ -66,7 +66,11 @@
 							</li>
 						</ul>
 					</div>
-					<li><a class="main-nav-link nav-cta" href="#">Contact Us</a></li>
+					<li>
+						<a class="main-nav-link nav-cta" href="/contact-us.html">
+							Contact Us
+						</a>
+					</li>
 				</ul>
 			</nav>
 
@@ -76,80 +80,67 @@
 			</button>
 		</header>
 		<main>
-			<section class="section-about-us">
-				<div class="container">
-					<h1 class="heading-secondary alt-header">About Us</h1>
-				</div>
-				<div class="container grid grid--2-cols">
-					<div class="about-us-img-box">
-						<img class="about-us-img" src="/img/about-us.jpg" alt="" />
-					</div>
-					<div class="about-us-text-box">
-						<h3 class="heading-tertiary alt-heading--tertiary">Our History</h3>
-						<p class="about-us-description">
-							Larrymark International Ltd.: Shaping Tomorrow’s Industry Today.
-							We seamlessly blend economic prosperity, environmental
-							responsibility, and social commitment in our pursuit of excellence
-							in industrial chemicals retail, production, and precision
-							machinery parts. Elevate your future with us.
-						</p>
-					</div>
-					<div class="about-us-text-box">
-						<h3 class="heading-tertiary alt-heading--tertiary">Our Founder</h3>
-						<p class="about-us-description">
-							Larrymark International Ltd.: Shaping Tomorrow’s Industry Today.
-							We seamlessly blend economic prosperity, environmental
-							responsibility, and social commitment in our pursuit of excellence
-							in industrial chemicals retail, production, and precision
-							machinery parts. Elevate your future with us.
-						</p>
-					</div>
-					<div class="about-us-img-box">
-						<img class="about-us-img" src="/img/founder.jpg" alt="" />
-					</div>
-				</div>
-			</section>
-			<section class="section-mission">
-				<div class="grid grid--2-cols container">
-					<div class="grid mission-statements">
-						<div class="mission-text">
-							<h3 class="heading-tertiary border-bottom--red">Our Mission</h3>
-							<p class="mission-description">
-								Establish one of the largest and developed industrial chemical
-								company that will be a source/supplier for manufacturing
-								companies
-							</p>
-						</div>
-						<div class="mission-text">
-							<h3 class="heading-tertiary border-bottom--blue">Our Vision</h3>
-							<p class="mission-description">
-								To be a processor of industrial minerals for end users, as well
-								as manufacturing companies
-							</p>
-						</div>
-					</div>
-					<div class="mission-img-box">
-						<img src="/img/target.svg" alt="" class="mission-img" />
-					</div>
-				</div>
-			</section>
+			<section class="section-header">
+				<div class="contact-form-container">
+					<h1
+						class="heading-secondary heading-secondary--edited contact-us--margin---bottom"
+					>
+						Contact Us
+					</h1>
 
-			<section class="section-what-we-do">
-				<div class="container">
-					<h1 class="heading-secondary alt-header">What we do</h1>
-				</div>
-				<div class="grid container">
-					<p class="what-we-do-description">
-						Larrymark International Ltd.: Shaping Tomorrow’s Industry Today. We
-						seamlessly blend economic prosperity, environmental responsibility,
-						and social commitment in our pursuit of excellence in industrial
-						chemicals retail, production, and precision machinery parts. Elevate
-						your future with us.
+					<p class="product-description product-description--edited">
+						If you're interested in hearing more about the way
+						<br />
+						we work,have a business proposal, or are
+						<br />
+						interested in making a purchase, we'd
+						<br />
+						love to hear from you.
 					</p>
-
-					<div class="what-we-do-img-box">
-						<img class="what-we-do-img" src="/img/what-we-do.jpg" alt="" />
-					</div>
+				</div>
+			</section>
+			<section class="section-contact-form">
+				<div class="contact-form-container">
+					<h1
+						class="heading-secondary heading-secondary--white heading-secondary--edited contact-us--margin---bottom"
+					>
+						Contact form
+					</h1>
+				</div>
+				<div class="contact-form-container">
+					<form class="cta-form" action="POST">
+						<div>
+							<label for="full-name">Full Name*</label>
+							<input
+								id="full-name"
+								type="text"
+								placeholder="John Smith"
+								name="full-name"
+								required
+							/>
+						</div>
+						<div>
+							<label for="email">Email address*</label>
+							<input
+								id="email"
+								type="email"
+								placeholder="me@example.com"
+								name="email"
+								required
+							/>
+						</div>
+						<div>
+							<label for="message">Message*</label>
+							<textarea
+								rows="5"
+								id="message"
+								type="text"
+								name="message"
+								required
+							></textarea>
+						</div>
+						<button class="btn btn--form">Submit</button>
+					</form>
 				</div>
 			</section>
 		</main>

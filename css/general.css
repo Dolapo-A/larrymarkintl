@@ -97,6 +97,13 @@ body {
 	margin: 0 auto;
 }
 
+.contact-form-container {
+	/* 1140px */
+	max-width: 70rem;
+	padding: 0 3.2rem;
+	margin: 0 auto;
+}
+
 .grid {
 	display: grid;
 	column-gap: 6.4rem;
@@ -107,6 +114,7 @@ body {
 
 .grid--column-gap {
 	column-gap: 4.8rem;
+	max-width: 100%;
 }
 
 /* .grid:last-child {
@@ -145,6 +153,10 @@ body {
 	/* color: #45260a; */
 	/* color: #343a40; */
 	letter-spacing: 0px;
+}
+
+.heading-secondary--white {
+	color: #fff;
 }
 
 .heading-primary {
@@ -193,6 +205,7 @@ body {
 	border: none;
 	cursor: pointer;
 	font-family: inherit;
+	padding: 1.6rem 4.8rem;
 
 	/* Put transition on original "state" */
 	/* transition: background-color 0.3s; */
