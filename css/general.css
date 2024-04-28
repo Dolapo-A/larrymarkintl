@@ -288,13 +288,6 @@ body {
 	color: #e67e22;
 }
 
-*:focus {
-	outline: none;
-	/* outline: 4px dotted #e67e22; */
-	/* outline-offset: 8px; */
-	box-shadow: 0 0 0 0.2rem #d85169;
-}
-
 /* HELPER/SETTINGS CLASSES */
 .margin-right-sm {
 	margin-right: 1.6rem !important;

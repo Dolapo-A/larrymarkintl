@@ -195,8 +195,14 @@
 	margin-bottom: 3.2rem;
 }
 
+.hero-img-box {
+	align-items: center;
+}
+
 .hero-img {
 	width: 100%;
+	display: flex;
+	align-items: center;
 }
 
 /**************************/
@@ -204,7 +210,7 @@
 /**************************/
 .section-more {
 	padding: 4.8rem 0;
-	background-color: #f9f9fb;
+	background-color: #eff6ff;
 }
 
 .logo-more {
@@ -274,6 +280,11 @@
 	color: #dddddd;
 }
 
+hr {
+	border: 0;
+	border-top: 1px solid #fff;
+}
+
 /**************************/
 /* INDUSTRIES SECTION */
 /**************************/
@@ -281,10 +292,25 @@
 	padding: 4.8rem 0 9.6rem 0;
 }
 
+.industries-card {
+	text-decoration: none;
+	color: #555;
+}
+
+.industries-image-box {
+	overflow: hidden;
+}
+
 .industries-card img {
 	width: 100%;
+	display: block;
+	transition: all 0.4s;
 	margin-bottom: 0rem;
 	padding-bottom: 0rem;
+}
+
+.industries-card:hover img {
+	transform: scale(1.1);
 }
 
 .strategy-card {
