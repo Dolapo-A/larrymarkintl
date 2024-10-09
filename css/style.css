@@ -244,7 +244,7 @@
 
 .mini-navigation-description {
 	color: #fff;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	font-weight: lighter;
 	margin-bottom: 3.2rem;
 }
@@ -327,7 +327,7 @@ hr {
 }
 
 .Industries-description {
-	font-size: 1.4rem;
+	font-size: 1.8rem;
 	line-height: 2.4rem;
 	font-weight: 300;
 }
@@ -421,7 +421,7 @@ hr {
 
 .contacts {
 	font-style: normal;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	line-height: 1.6;
 }
 
@@ -439,7 +439,7 @@ hr {
 .footer-link:link,
 .footer-link:visited {
 	text-decoration: none;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	color: #767676;
 	transition: all 0.3s;
 }
@@ -580,7 +580,7 @@ hr {
 
 .product-link {
 	text-decoration: none;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	margin-right: 1.2rem;
 	display: flex;
 	align-items: center;
