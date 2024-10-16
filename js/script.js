@@ -4,6 +4,10 @@ const yearEl = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
 yearEl.textContent = currentYear;
 
+// Cookies
+document.cookie = 'name=jonas ; expires=Thu, 18 Dec 2024 12:00:00'
+console.log(document.cookie)
+
 ///////////////////////////////////////////////////////////
 // Make mobile navigation work
 
