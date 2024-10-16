@@ -368,6 +368,11 @@
 		height: 32rem;
 		grid-row: 1;
 	}
+
+	#cookie-consent{
+		flex-direction: column;
+		text-align: center;
+	}
 }
 
 /* 

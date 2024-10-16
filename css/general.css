@@ -201,6 +201,7 @@ body {
 	text-decoration: none;
 	font-size: 1.8rem;
 	font-weight: 500;
+
 	/* Only necessary for .btn */
 	border: none;
 	cursor: pointer;
@@ -249,6 +250,27 @@ body {
 .btn--form:hover {
 	background-color: #fff;
 	color: #555;
+}
+
+.cookies-btns {
+	display: flex;
+	gap: 1.6rem;
+}
+
+.btn-accept--cookies:hover,
+.btn-accept--cookies:active {
+	background-color: #d2d2d2;
+}
+
+.btn-decline--cookies {
+	background-color: #d85169;
+	color: #fff;
+}
+
+.btn-decline--cookies:hover,
+.btn-decline--cookies:active {
+	background-color: #b34358;
+	color: #fff;
 }
 
 .link:link,

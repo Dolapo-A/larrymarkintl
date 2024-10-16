@@ -5,8 +5,25 @@ const currentYear = new Date().getFullYear();
 yearEl.textContent = currentYear;
 
 // Cookies
-document.cookie = 'name=jonas ; expires=Thu, 18 Dec 2024 12:00:00'
-console.log(document.cookie)
+document.addEventListener('DOMContentLoaded', function() {
+  const cookieConsent = document.getElementById('cookie-consent');
+  const acceptButton = document.getElementById('accept-cookies');
+  const declineButton = document.getElementById('decline-cookies');
+
+  if (!localStorage.getItem('cookieConsent')) {
+      cookieConsent.style.display = 'flex';
+  }
+
+  acceptButton.addEventListener('click', function() {
+      localStorage.setItem('cookieConsent', 'true');
+      cookieConsent.style.display = 'none';
+  });
+
+  declineButton.addEventListener('click', function () {
+    localStorage.removeItem('cookieConsent');
+    cookieConsent.style.display = 'none';
+  })
+});
 
 ///////////////////////////////////////////////////////////
 // Make mobile navigation work
